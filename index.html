@@ -1,344 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
- <title>Assignment Solution for Module2</title>
-        <link rel="stylesheet" type="text/css" href="module2css.html">
-        <link rel="stylesheet" type="text/css" href="css/module2css.html">
-    </head>
-<body>
-    <h1>Our Menu</h1>
-     <div class="row">
-        <section class="col-lg-4 col-md-6 col-sm-12">
-            <h3 class="sectionTitleBox">chicken</h3>
-            <p class="sectionParagraph">
-              lorem ipsum dolor sit amet ,consectetur
-	     adipiscing elit ,sed do eiusmod trmpor incididunt 
-	     ut lavre et dolore mangna aliqua. ut enim ad
-	    minim veniam ,quis nostrud exercitation ullamco
-	    laboris nisi ut aliquip ex ea commodo consequat.   
-            </p>
-        </section>
-        <section class="col-lg-4 col-md-6 col-sm-12">
-            <h3 class="sectionTitleBox">beef</h3>
-            <p class="sectionParagraph">
-     lorem ipsum dolor sit amet ,consectetur
-	     adipiscing elit ,sed do eiusmod trmpor incididunt 
-	     ut lavre et dolore mangna aliqua. ut enim ad
-	    minim veniam ,quis nostrud exercitation ullamco
-	    laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-        </section>
-        <section class="col-lg-4 col-md-12 col-sm-12">
-            <h3 class="sectionTitleBox">suchi</h3>
-            <p class="sectionParagraph">
-     lorem ipsum dolor sit amet ,consectetur
-	     adipiscing elit ,sed do eiusmod trmpor incididunt 
-	     ut lavre et dolore mangna aliqua. ut enim ad
-	    minim veniam ,quis nostrud exercitation ullamco
-	    laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-        </section>
-    </div>
-    <!-- <div class="row">
-        <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-        <div class="col-lg-3 col-md-6"><p>Item 2 Wow this is cool</p></div>
-        <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-        <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-        <div class="col-lg-3 col-md-6"><p>Item 5 This is cool</p></div>
-        <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
-        <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
-        <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
-    </div> -->
-<style>
-/**** This is the main CSS stylesheet for the Module 2 Assignment.  ****/
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Module3-solution by tuannnm46</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a href="index.html">Food, LLC</a>
+            </div>
 
-/********** Base styles **********/
-*
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+             <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs text-center">
+                <a href="#chicken">Chicken</a>
+                <hr class="visible-xs">
+              </li>
+              <li class="visible-xs text-center">
+                <a href="#beef">Beef</a>
+                <hr class="visible-xs">
+              </li>
+              <li class="visible-xs text-center">
+                <a href="#sushi">Sushi</a>
+              </li>
+            </ul><!-- #nav-list -->
+          </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+      </nav><!-- #header-nav -->
+    </header>
 
-{
-    box-sizing: border-box;
-}
+    <div id="main-content" class="container">
+      <h1 class="menu-header text-center col-md-12 col-ms-12 col-xs-12">Our Menu</h1>
+      <div id="chicken" class="menu-content col-md-12 col-ms-12 col-xs-12">
+        <h3 class="text-center">Chicken</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+      </div>
+      <div id="beef" class="menu-content col-md-12 col-ms-12 col-xs-12">
+        <h3 class="text-center">Beef</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+      </div>
+      <div id="sushi" class="menu-content col-md-12 col-ms-12 col-xs-12">
+        <h3 class="text-center">Sushi</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+      </div>
+    </div><!-- End of #main-content -->
 
-h1
-{
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-p
-{
-    width: 90%;
-    height: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: Helvetica;
-    color: black;
-}
-
-.sectionTitleBox
-{
-    position: absolute;
-    width: 150px;
-    height: 30px;
-    margin-top: 0%;
-    margin-bottom: 40px;
-    right: 0%;
-    top: 0;
-    border: 1px solid black;
-    background-color: pink;
-    text-align: center;
-}
-
-.sectionTitle
-{
-    text-align: center;
-}
-
-.sectionParagraph
-{
-    margin-top: 40px;
-}
-
-/* Simple Responsive Framework. */
-.row
-{
-    width: 100%;
-}
-
-/********** desktop-class devices only **********/
-@media (min-width: 992px)
-{
-    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7,
-    .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
-    {
-        position: relative;
-        float: left;
-        border: 1px solid black;
-        background-color: gray;
-        height: 300px;
-        overflow: hidden;
-        margin-right: 1.33%;
-    }
-
-    .col-lg-1
-    {
-        width: 8.33%;
-    }
-
-    .col-lg-2
-    {
-        width: 16.66%;
-    }
-
-    .col-lg-3
-    {
-        width: 25%;
-    }
-
-    .col-lg-4
-    {
-         /* width: 33.33%; */
-         width: 32%; /* Is this a hack or legit? */
-    }
-
-    .col-lg-5
-    {
-        width: 41.66%;
-    }
-
-    .col-lg-6
-    {
-        width: 50%;
-    }
-
-    .col-lg-7
-    {
-        width: 58.33%;
-    }
-
-    .col-lg-8
-    {
-        width: 66.66%;
-    }
-
-    .col-lg-9
-    {
-        width: 74.99%;
-    }
-
-    .col-lg-10
-    {
-        width: 83.33%;
-    }
-
-    .col-lg-11
-    {
-        width: 91.66%;
-    }
-
-    .col-lg-12
-    {
-        width: 100%;
-    }
-
-}
-
-/********** tablet-class devices only **********/
-@media (min-width: 768px) and (max-width: 991px)
-{
-    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
-    .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
-    {
-        position: relative;
-        float: left;
-        border: 1px solid black;
-        background-color: gray;
-        height: 300px;
-        overflow: hidden;
-        margin-right: 1%;
-        margin-top: 1%;
-    }
-
-    .col-md-1
-    {
-        width: 8.33%;
-    }
-
-    .col-md-2
-    {
-        width: 16.66%;
-    }
-
-    .col-md-3
-    {
-        width: 25%;
-    }
-
-    .col-md-4
-    {
-         width: 33.33%;
-    }
-
-    .col-md-5
-    {
-        width: 41.66%;
-    }
-
-    .col-md-6
-    {
-        /* width: 50%; */
-        width: 49%; /* Is this a hack or legit? */
-    }
-
-    .col-md-7
-    {
-        width: 58.33%;
-    }
-
-    .col-md-8
-    {
-        width: 66.66%;
-    }
-
-    .col-md-9
-    {
-        width: 74.99%;
-    }
-
-    .col-md-10
-    {
-        width: 83.33%;
-    }
-
-    .col-md-11
-    {
-        width: 91.66%;
-    }
-
-    .col-md-12
-    {
-        width: 100%;
-    }
-}
-
-/********** mobile-class devices only **********/
-@media (max-width: 767px)
-{
-    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
-    .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12
-    {
-        position: relative;
-        float: left;
-        border: 1px solid black;
-        background-color: gray;
-        height: 300px;
-        overflow: hidden;
-        margin-right: 1%;
-        margin-top: 1%;
-    }
-
-    .col-sm-1
-    {
-        width: 8.33%;
-    }
-
-    .col-sm-2
-    {
-        width: 16.66%;
-    }
-
-    .col-sm-3
-    {
-        width: 25%;
-    }
-
-    .col-sm-4
-    {
-         width: 33.33%;
-    }
-
-    .col-sm-5
-    {
-        width: 41.66%;
-    }
-
-    .col-sm-6
-    {
-        width: 50%;
-    }
-
-    .col-sm-7
-    {
-        width: 58.33%;
-    }
-
-    .col-sm-8
-    {
-        width: 66.66%;
-    }
-
-    .col-sm-9
-    {
-        width: 74.99%;
-    }
-
-    .col-sm-10
-    {
-        width: 83.33%;
-    }
-
-    .col-sm-11
-    {
-        width: 91.66%;
-    }
-
-    .col-sm-12
-    {
-        width: 100%;
-    }
-</style>
-
-</body>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
-   
